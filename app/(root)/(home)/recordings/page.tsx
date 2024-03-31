@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Home = () => {
+const Recordings = () => {
   return (
     <section className='flex size-full flex-col gap-10 text-white'>
-      <h1 className='text-4xl font-bold'>Home</h1>
+      <h1 className='text-4xl font-bold'>Recordings</h1>
       
     </section>
   )
 }
 
-export default Home
+export default Recordings
