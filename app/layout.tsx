@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     siteName: "PEEKABOO",
     images: [
       {
-        url: "https://peekaboo-omega.vercel.app/preview-image.jpg", 
+        url: "https://peekaboo-omega.vercel.app/images/preview-image.jpg", 
         width: 1200,
         height: 630,
         alt: "PEEKABOO Video Calling App",
