@@ -9,14 +9,29 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
   title: "PEEKABOO",
-  description: "Video calling App",
+  description: "Video calling App using Next.js,Typescript and Stream",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "https://peekaboo-omega.vercel.app/icons/logo.svg", 
+  },
+  openGraph: {
+    title: "PEEKABOO",
+    description: "A modern video calling app.",
+    url: "https://peekaboo-omega.vercel.app/",
+    siteName: "PEEKABOO",
+    images: [
+      {
+        url: "https://peekaboo-omega.vercel.app/preview-image.jpg", 
+        width: 1200,
+        height: 630,
+        alt: "PEEKABOO Video Calling App",
+      },
+    ],
+    type: "website",
   },
 };
+
 
 export default function RootLayout({
   children,
